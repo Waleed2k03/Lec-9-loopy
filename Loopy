@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int myINT = 0, counter;
+	cout << "Enter a number\n";
+	cin >> counter;
+	do
+	{
+		cout << myINT << endl;
+		myINT++;
+	} while (myINT <= counter);
+
+}
